@@ -1,6 +1,6 @@
 # VLCKit
 
-基于官方 VLCKit 编译的 Swift Package Manager 分发版。
+基于官方 VLCKit 编译的 Swift Package Manager 分发版，底层使用 libVLC 4.0.0。
 
 ## 支持的平台
 
