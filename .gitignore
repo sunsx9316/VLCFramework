@@ -18,3 +18,4 @@ Icon
 .com.apple.timemachine.donotpresent
 .build
 Binary/
+.claude/settings.local.json

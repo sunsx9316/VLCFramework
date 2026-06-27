@@ -1,6 +1,6 @@
-# VLCKit
+# VLCFramework
 
-基于官方 VLCKit 编译的 Swift Package Manager 分发版，底层使用 libVLC 4.0.0。
+基于官方 VLCKit 编译的 Swift Package Manager 分发版，底层使用 libVLC 4.0.0。仓库名为 VLCFramework。
 
 ## 支持的平台
 
@@ -14,13 +14,13 @@
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/sunsx9316/VLCKit.git", from: "1.0.0")
+    .package(url: "https://github.com/sunsx9316/VLCFramework.git", from: "1.0.0")
 ],
 targets: [
     .target(
         name: "YourTarget",
         dependencies: [
-            .product(name: "VLCKit", package: "VLCKit")
+            .product(name: "VLCFramework", package: "VLCFramework")
         ]
     )
 ]
@@ -29,7 +29,7 @@ targets: [
 ## 使用
 
 ```swift
-import VLCKit
+import VLCFramework
 
 let player = VLCMediaPlayer()
 let media = VLCMedia(url: URL(string: "https://example.com/video.mp4")!)
