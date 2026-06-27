@@ -5,7 +5,7 @@ import PackageDescription
 
 let vlcBinary = Target.binaryTarget(
     name: "VLCKit-all",
-    url: "https://github.com/sunsx9316/VLCFramework/releases/download/4.0.0/VLCKit.xcframework.zip",
+    url: "https://github.com/sunsx9316/VLCFramework/releases/download/4.0.2/VLCKit.xcframework.zip",
     checksum: "510eadf62046f390a01bf63659620e256bf26c2de89223d07e509bf12798962d"
 )
 
